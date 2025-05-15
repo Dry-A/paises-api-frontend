@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+# Frontend para Gerenciamento de Países
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto frontend fornece uma interface de usuário para gerenciar informações de países através de uma API RESTful. O sistema permite listar, visualizar detalhes, criar, editar e excluir registros de países.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Listagem de países** com paginação e busca por nome
+- **Visualização detalhada** de informações de um país específico
+- **Cadastro de novos países** com validação de formulário
+- **Edição de países existentes**
+- **Exclusão de países**
+- Interface responsiva usando Bootstrap
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React 19
+- React Router v7
+- Axios para requisições HTTP
+- Bootstrap 5 para estilização
+- Create React App como base do projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Estrutura do Projeto
 
-### `npm test`
+- `src/components/` - Componentes React reutilizáveis
+  - `Navbar.jsx` - Menu de navegação
+  - `PaisesLista.jsx` - Listagem de países com paginação e busca
+  - `PaisDetalhes.jsx` - Visualização detalhada de um país
+  - `PaisForm.jsx` - Formulário para criar/editar países
+  - `Paginacao.jsx` - Componente de paginação
+- `src/services/` - Serviços para comunicação com a API
+  - `api.js` - Configuração do Axios e endpoints
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Pré-requisitos
 
-### `npm run build`
+- Node.js (versão recomendada: 18 ou superior)
+- Backend de países em execução (porta 8080)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instalação e Execução
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone este repositório
+```bash
+git clone https://github.com/seu-usuario/paises-frontend.git
+cd paises-frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Collecting workspace information# Um README para o seu projeto de Frontend de Países
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Baseado no seu código, criarei um README para o projeto de frontend que se conecta ao backend de países.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```markdown
+# Frontend para Gerenciamento de Países
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Este projeto frontend fornece uma interface de usuário para gerenciar informações de países através de uma API RESTful. O sistema permite listar, visualizar detalhes, criar, editar e excluir registros de países.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Funcionalidades
 
-## Learn More
+- **Listagem de países** com paginação e busca por nome
+- **Visualização detalhada** de informações de um país específico
+- **Cadastro de novos países** com validação de formulário
+- **Edição de países existentes**
+- **Exclusão de países**
+- Interface responsiva usando Bootstrap
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tecnologias Utilizadas
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React 19
+- React Router v7
+- Axios para requisições HTTP
+- Bootstrap 5 para estilização
+- Create React App como base do projeto
 
-### Code Splitting
+## Estrutura do Projeto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `src/components/` - Componentes React reutilizáveis
+  - `Navbar.jsx` - Menu de navegação
+  - `PaisesLista.jsx` - Listagem de países com paginação e busca
+  - `PaisDetalhes.jsx` - Visualização detalhada de um país
+  - `PaisForm.jsx` - Formulário para criar/editar países
+  - `Paginacao.jsx` - Componente de paginação
+- `src/services/` - Serviços para comunicação com a API
+  - `api.js` - Configuração do Axios e endpoints
 
-### Analyzing the Bundle Size
+## Pré-requisitos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Node.js (versão recomendada: 18 ou superior)
+- Backend de países em execução (porta 8080)
 
-### Making a Progressive Web App
+## Instalação e Execução
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Clone este repositório
+```bash
+git clone https://github.com/seu-usuario/paises-frontend.git
+cd paises-frontend
+```
 
-### Advanced Configuration
+2. Instale as dependências
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Inicie o servidor de desenvolvimento
+```bash
+npm start
+```
 
-### Deployment
+4. Acesse a aplicação em http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Configuração da API
 
-### `npm run build` fails to minify
+O frontend está configurado para se conectar a uma API REST rodando em `http://localhost:8080/api`. Se necessário, você pode modificar esta URL no arquivo api.js.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Conexão com o Backend
+
+Este frontend foi projetado para trabalhar com o backend disponível em [seu-repositorio-backend]. Certifique-se de que o backend esteja em execução antes de iniciar este aplicativo.
+
+## Screenshots
+
+
+
+## Compilação para Produção
+
+```bash
+npm run build
+```
+
+Isso criará uma versão otimizada do aplicativo na pasta `build/` que pode ser servida por qualquer servidor web estático.
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## Licença
+
+ MIT
+```
+
+
+
+
+
+
+
+
+
