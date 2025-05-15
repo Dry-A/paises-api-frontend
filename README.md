@@ -111,7 +111,7 @@ O frontend está configurado para se conectar a uma API REST rodando em `http://
 
 ## Conexão com o Backend
 
-Este frontend foi projetado para trabalhar com o backend disponível em [seu-repositorio-backend]. Certifique-se de que o backend esteja em execução antes de iniciar este aplicativo.
+Este frontend foi projetado para trabalhar com o backend disponível em https://github.com/Dry-A/paises-api-backend. Certifique-se de que o backend esteja em execução antes de iniciar este aplicativo.
 
 ## Screenshots
 
