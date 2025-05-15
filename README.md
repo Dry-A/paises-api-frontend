@@ -66,6 +66,11 @@ Este frontend foi projetado para trabalhar com o backend disponível em https://
 
 ## Screenshots
 
+![Em exceução](https://i.ibb.co/mrGmVzLq/Screenshot-2025-05-15-135706.png)
+
+![Front-end](https://i.ibb.co/7xfjMjdF/Screenshot-2025-05-15-120452.png)
+
+![Detalhe do país](https://i.ibb.co/DfW5x6jz/Screenshot-2025-05-15-120502.png)
 
 
 ## Compilação para Produção
